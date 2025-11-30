@@ -1,0 +1,24 @@
+
+GET http://localhost:8080/getData HTTP/1.1
+
+### GET getData1 with token
+
+GET http://localhost:8080/getData1 HTTP/1.1
+# Token: auth
+
+### GET getData2 with token
+
+GET http://localhost:8080/getData2 HTTP/1.1
+Token: auth
+
+### post data 
+
+POST http://localhost:8080/data HTTP/1.1
+
+### get getQueryString 
+
+GET http://localhost:8080/getQueryString?name=Mikka&age=30 HTTP/1.1
+
+### GET getParams 
+
+GET http://localhost:8080/getParams/name/Mikka/age/30 HTTP/1.1
